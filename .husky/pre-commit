@@ -1,0 +1,6 @@
+npm run build:production
+npm run prettier:write
+npm run stylelint:scss:fix
+npm run update-imports
+npm run eslint:fix
+git add .
