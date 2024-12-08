@@ -7,5 +7,10 @@ interface AppProps {
 }
 
 export const App: React.FC<AppProps> = (props): JSX.Element => {
-  return <div className={clx(styles.App, props.className)}>App</div>;
+  return (
+    <div className={clx(styles.App, props.className)}>
+      <button className="button" type="button">a</button>
+      <button>aaa</button>
+    </div>
+  );
 };
